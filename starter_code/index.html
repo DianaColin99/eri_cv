@@ -6,11 +6,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Change document title  -->
-    <title>Document</title>
-    <!-- Here goes your styles -->
+    <title>Mi Currículum Vitae</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito+Sans:wght@200&family=Open+Sans:wght@300&family=Poppins:wght@100;200&display=swap" rel="stylesheet">
+    <!-- Here goes your styles -->
+    <link rel = "stylesheet" href="./src/img/styles/main.css">
 </head>
+
 <body>
-    
+    <!-- Encabezado de la página. En esta sección irán el logo y el menú de navegación-->
+    <header>
+        <nav class = "head">
+            <ul>
+                <li id = "logo" class = "menu"> LOGO </li>
+                <li id = "saludo" class = "menu">HOLA</li>
+                <li class = "menu">PROYECTOS</li>
+                <li class = "menu">HABLEMOS</li>
+        
+            </ul>
+            <a><button class = "boton_cv_e">Descargar CV</button></a>
+        </nav>
+    </header>
+
+    <!-- Es la introducción y datos de contacto. Pertenecen a la sección principal -->
+    <section> 
+        <div class = "container">
+            <div>
+                <h3 class = "presentacion" id = "hola">¡HOLA A TODOS!</h3>
+                <h1 class = "presentacion" id = "nombre">Soy Diana Colín</h1>
+                <p class = "presentacion" id = "perfil_p">Soy una desarrolladora Java Fullstack Jr con experiencia en la creación de interfaces de
+                usuario y manejo de bases de datos. </p>
+                
+                <div class = "container_c">
+                    <div class = "contacto"> <button class = "boton"><img src = "./src/img/icon-phone.png"></button></div>
+                    <div class = "contacto"> <button class = "boton"><img src = "./src/img/mail.png"></button></div>
+                    <div class = "contacto"> <button class = "boton"><img src = "./src/img/icon-instagram.png"></button></div>
+                    <div class = "contacto"> <button class = "boton"><img src = "./src/img/icon-twitter_squared.png"></button></div>
+                </div>
+
+                <a id = "boton_cv_s"><button id = "boton_cv">Descargar CV</button></a>
+            </div>
+
+            <div>
+                <img src = "./src/img/Foto. Perfil.jpeg" class = im_perfil height = 450rem>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Sección intermedia, donde pasa de presentación a proyectos -->
+    <section id = "intermedio">
+        <h1 class = "proyectos_p" id = "inter_p1">Participé en @GenerationMX, donde me formé como Desarrollador Java Fullstack</h1>
+        <h1 class = "proyectos_p" id = "inter_p1_2">A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar
+            en proyectos retadores e increíbles</h1>
+
+        <h3 class = "proyectos_p" id = "inter_p2">A continuación, les presento algunos de mis proyectos...</h3>
+        <h3 class = "proyectos_p" id = "inter_p2_2">Aquí hay algunos que me gustaría compartir...</h3>
+
+        <h1 class = "proyectos_p"><img src = "./src/img/arrow-down.svg" height = 100></h1>
+    </section>
+
+    <!-- Página de proyectos. Utiliza contenedores para imágenes y texto -->
+    <section>
+        <div class = "contenedor_p">
+            <div>
+                <h1 class = "mi_proyecto">mi_proyecto.com</h1>
+                <p class = "descripcion_p">Accede a más de 120 proyectos que te ayudarán a desarrollar tus habilidades como Front-End</p>
+                <div>
+                    <button id = "ver_proyecto">VER PROYECTO</button>
+                    <button id = "ver_codigo">VER CÓDIGO</button>
+                </div>
+            </div>
+
+            <div>
+                <img class = "iphone" src = "./src/img/Macbook.png">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Sección del comentario de recomendación -->
+    <section class = "recomendacion">
+        <div id = "borde">
+            <img id = imagen_rec src = "./src/img/Foto perfil.jpeg" height = 100px>
+            <h3 id = "comentario">Diana ha sido una persona que demuestra sus habilidades y ha crecido mucho</h3>
+            <h6 id = "autor">Karla Mendoza | Instructora de Generation</h6>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class = "contenedor_pp">
+            <div>
+                <ul>
+                    <li id = "logo_f" class = "pie_pagina"> LOGO </li>
+                    <li id = "derechos" class = "pie_pagina"> Hecho con 💜 de Diana Colín. Copyright 2022 - Todos los derechos reservados</li>
+                </ul>
+            </div>
+
+            <div class = "contenedor_pp_b">
+                <div class = "contacto_pp"> <button class = "boton_pp"><img src = "./src/img/icon-phone.png"></button></div>
+                <div class = "contacto_pp"> <button class = "boton_pp"><img src = "./src/img/mail.png"></button></div>
+                <div class = "contacto_pp"> <button class = "boton_pp"><img src = "./src/img/icon-instagram.png"></button></div>
+                <div class = "contacto_pp"> <button class = "boton_pp"><img src = "./src/img/icon-twitter_squared.png"></button></div>
+            </div>
+        </div>
+    </footer>
+
 </body>
-</html>l
+</html>

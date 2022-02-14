@@ -1,0 +1,35 @@
+#intermedio{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.proyectos_p{
+    color: var(--font-text);
+    text-align: center;
+}
+
+#inter_p1_2{
+    display: none;
+}
+
+#inter_p2_2{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    #inter_p1{
+        display: none;
+    }
+
+    #inter_p2{
+        display: none;
+    }
+
+    #inter_p1_2{
+        display:flex;
+    }
+    
+    #inter_p2_2{
+        display:flex;
+    }
+}

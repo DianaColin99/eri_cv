@@ -1,0 +1,92 @@
+.menu{
+    display: inline;
+    padding-right: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--font-text);
+  }
+
+.boton_cv_e{
+    display: none;
+}
+
+#logo{
+    padding-right: 200px;
+    font-size: 25px;
+    color: var(--font-text);
+}
+
+#saludo{
+    color: var(--font-text);
+}
+
+.presentacion{
+    padding-left: 35px;
+    padding-top: 10px;
+    color: var(--font-text);
+    margin-right: 50px;
+    font-weight: bold;
+}
+
+#hola{
+    font-size: 2rem;
+}
+
+#nombre{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+#perfil_p{
+    font-size: 1rem;
+}
+
+.container_c{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.head{
+    display: flex;
+}
+
+.boton{
+    border-color: var(--font-text);
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.contacto{
+    padding-right: 15px;
+}
+
+#boton_cv{
+    color: var(--font-main);
+    background-color: darkslateblue;
+    border-color: slateblue;
+    font-weight: bolder;
+    padding: 20px 120px;
+    list-style-type: none;
+    border-radius: 5px;
+}
+
+#boton_cv_s{
+    display: block;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.im_perfil{
+    border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+.contenedor_p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 32px;
+}
+
+.mi_proyecto{
+    padding: 10px 10px 10px 10px;
+    background-color: darkslateblue;
+    font-size: 2rem;
+    color: var(--font-main);
+    width: 300px;
+}
+
+.descripcion_p{
+    font-size: 1rem;
+    color: var(--font-text);
+    font-weight: bolder;
+}
+
+#ver_proyecto{
+    color: var(--font-main);
+    background-color: darkslateblue;
+    border-color: slateblue;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+#ver_codigo{
+    color: var(--font-text);
+    border-color: darkslateblue;
+    font-weight: bolder;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.iphone{
+    padding-top: 11rem;
+    padding-right: 27rem;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .contenedor_p {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding-left: 32px;
+    }
+
+}
+

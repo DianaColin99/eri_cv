@@ -1,0 +1,82 @@
+/* Importar */
+@import url("./principal.css");
+@import url("./intermedio.css");
+@import url("./comentarios.css");
+@import url("./proyecto.css");
+@import url("./footer.css");
+
+:root{
+    font-family: 'Montserrat', sans-serif;
+    --font-main: whitesmoke;
+    --font-text: navy; 
+    --font-size: 10px;
+}
+
+body{
+    background: #B993D6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 5px 100px 10px 100px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin:0;
+        padding:0;
+    }
+
+    .boton_cv_e{
+        display: block;
+        color: var(--font-main);
+        background-color: darkslateblue;
+        border-color: slateblue;
+        font-weight: bolder;
+        padding: 10px 50px;
+        list-style-type: none;
+        border-radius: 5px;
+    }
+
+    .im_perfil{
+        width: 100%;
+        height: auto;
+    }
+    
+    .iphone{
+        width: 100%;
+        height: auto;
+        padding-right: 5px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 30px;
+    }
+
+    .presentacion{
+        font-size: 1rem;
+        display: inline;
+        width: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    #logo{
+        display: inline;
+        padding-right: 10px;
+    }
+
+    .container_c{
+        width: 100%;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
